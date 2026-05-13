@@ -1,0 +1,18 @@
+[
+  {
+    "package": "example-package",
+    "ecosystem": "npm",
+    "affected_versions": ["1.0.0", "1.1.0"],
+    "cve": "CVE-0000-0000",
+    "severity": "HIGH",
+    "message": "Example vulnerable package version detected"
+  },
+  {
+    "package": "requests",
+    "ecosystem": "python",
+    "affected_versions": ["2.19.0"],
+    "cve": "CVE-2018-18074",
+    "severity": "HIGH",
+    "message": "Old requests version may be vulnerable"
+  }
+]
