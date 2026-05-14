@@ -44,26 +44,31 @@ security-watchdog-tool/
 ├── tests/
 └── sample_project/
 
-Installation
+##Installation
+
 Clone the repository:
 git clone <repo-url>
 cd security-watchdog-tool
 
 No external dependencies are currently required.
 
-Usage
+##Usage
+
 Run a scan against a project folder:
 python3 watchdog.py sample_project
 
-Example Findings
+##Example Findings
+
 [HIGH] Possible secret found
 [MEDIUM] Use of eval() can be dangerous
 [HIGH] requests 2.19.0 matches CVE-2018-18074
 
-Generated Reports
+##Generated Reports
+
 Reports are automatically generated inside:
 reports/
 
-Formats:
+##Formats:
+
 * JSON
 * Markdown
